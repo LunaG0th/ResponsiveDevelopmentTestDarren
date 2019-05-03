@@ -616,4 +616,41 @@ footer{
 
   }
 
+ @media only screen 
+  and (max-device-width: 375px) {
+
+  		.site-title {
+		    padding: 0;
+		    float: right;
+		    display: block;
+		    margin-left: 100px;
+		    font-size: 14px;
+		    text-align: left;
+		} 
+
+		.social-icon, .sales {
+			padding: 0;
+			text-align: left;
+		}
+		/*features02 section*/
+
+		.fea-02 > div {
+			margin: 2% 0;
+		}
+		.fea-02 {
+    		padding: 3.5rem 0;
+    		text-align: center;
+    		margin: 0;
+		}
+
+		.spacer {
+			display: none;
+		}
+
+		.fea-02 > div {
+			margin: 2% 0;
+		}
+
+  }
+
  
